@@ -1,0 +1,61 @@
+.kundu_sir{
+    width: 150px;
+    opacity: .7;
+}
+
+h1,h4{
+    text-align: center;
+    font-family: monospace;
+}
+
+.div1{
+    float: left;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 22s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    clear: left;
+}
+.div2{
+    float: right;
+    right: 100px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    
+    animation-name: example2;
+    animation-duration: 22s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    clear: right;
+}
+
+.rosha_sir{
+    width: 160px;
+    opacity: .7;
+}
+
+audio{
+    position: relative;
+    left: 38%;
+    display: none;
+}
+
+  
+  @keyframes example {
+    0%   { left:0px; top:0px;}
+    100%  {left:500px; top:0px;}
+    
+    
+  }
+  @keyframes example2 {
+    0%   { left:-100px; top:0px;}
+    100%  {left:-500px; top:0px;}
+    
+    
+  }

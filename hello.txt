@@ -1,0 +1,5 @@
+sun-tue-thu:
+    rosha sir: 2.20-3.20
+
+sat-mon-wed:    
+    Kundu sir: 8.15-9.15
